@@ -4,7 +4,7 @@ package com.demo.oleaster.fizzbuzz;
  * Created by boysbee on 7/15/2015.
  */
 public class FizzBuzz {
-    public static String getResult(int input) {
+    public String getResult(int input) {
         if (input % 3 == 0 && input % 5 == 0) {
             return "fizzbuzz";
         }
